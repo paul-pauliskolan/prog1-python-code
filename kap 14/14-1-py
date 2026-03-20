@@ -1,0 +1,43 @@
+# Facit till övning 14.1
+# Exempel på en tydlig och enkel plan innan programmering.
+
+# Program: Budgetapp
+
+# Syfte:
+# Programmet ska hjälpa användaren att hålla koll på sina inkomster och utgifter.
+
+# Användaren ska kunna:
+# - skriva in sin inkomst
+# - skriva in sina utgifter
+# - se hur mycket pengar som finns kvar
+
+# Information som behövs:
+# - inkomst
+# - utgift för mat
+# - utgift för nöjen
+# - utgift för transport
+
+# Resultatet ska visas som:
+# - total inkomst
+# - totala utgifter
+# - pengar kvar efter utgifter
+
+# Enkel plan steg för steg:
+# 1. Fråga användaren efter inkomst.
+# 2. Fråga användaren efter olika utgifter.
+# 3. Räkna ut summan av utgifterna.
+# 4. Räkna ut hur mycket pengar som är kvar.
+# 5. Visa resultatet tydligt.
+
+# Exempel på hur programmet senare skulle kunna fungera:
+inkomst = 25000
+mat = 3000
+nojen = 1500
+transport = 1200
+
+utgifter = mat + nojen + transport
+kvar = inkomst - utgifter
+
+print(f"Inkomst: {inkomst} kr")
+print(f"Utgifter: {utgifter} kr")
+print(f"Kvar efter utgifter: {kvar} kr")
